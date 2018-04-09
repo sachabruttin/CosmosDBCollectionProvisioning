@@ -1,8 +1,8 @@
 ﻿using CommandLine;
 
-namespace DocumentDBCollectionProvisioning
+namespace CosmosDBCollectionProvisioning
 {
-    public class PrivisioningArgument
+    public class ProvisioningArgument
     {
         [Option('u', "uri", Required = true, HelpText = "DocumentDB URI")]
         public string EndpointUri { get; set; }

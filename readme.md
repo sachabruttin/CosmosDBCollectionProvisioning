@@ -1,14 +1,14 @@
-# DocumentDB Collection Provisioning
+# Cosmos DB Collection Provisioning
 
-Create a DocumentDB Collection from command line.
+Create a Cosmos DB Collection from command line.
 
 ## Parameters
 
 | short | long | description | Default |
 |-------|------|-------------|---------|
-| `-u` | `--uri`  | DocumentDB URI |
+| `-u` | `--uri`  | Cosmos DB URI |
 | `-k` | `--key`  | Key to access to DocumentDB |
-| `-d` | `--databaseId`  | DocumentDB database id (name) |
+| `-d` | `--databaseId`  | Cosmos DB database id (name) |
 | `-c` | `--collection`  | Collection name to create |
 | `-t` | `--throughput`  | Collection throughput | 400 |
 

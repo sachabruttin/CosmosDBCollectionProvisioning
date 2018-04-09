@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace DocumentDBCollectionProvisioning.Extensions
+namespace CosmosDBCollectionProvisioning.Extensions
 {
     public static class ExceptionExtensions
     {

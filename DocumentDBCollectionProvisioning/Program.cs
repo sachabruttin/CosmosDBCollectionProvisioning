@@ -1,14 +1,13 @@
-﻿using DocumentDBCollectionProvisioning.Extensions;
+﻿using CosmosDBCollectionProvisioning.Extensions;
 using System;
-using System.Linq;
 
-namespace DocumentDBCollectionProvisioning
+namespace CosmosDBCollectionProvisioning
 {
     public static class Program
     {
         public static void Main(string[] args)
         {
-            var arguments = new PrivisioningArgument();
+            var arguments = new ProvisioningArgument();
             var isValid = CommandLine.Parser.Default.ParseArgumentsStrict(args, arguments);
 
             if (isValid)

@@ -5,14 +5,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace DocumentDBCollectionProvisioning
+namespace CosmosDBCollectionProvisioning
 {
     public class Provisioning
     {
         private readonly DocumentClient _client;
-        private readonly PrivisioningArgument _args;
+        private readonly ProvisioningArgument _args;
 
-        public Provisioning(PrivisioningArgument args)
+        public Provisioning(ProvisioningArgument args)
         {
             _args = args;
             _client = new DocumentClient(new Uri(args.EndpointUri), args.AccessKey);

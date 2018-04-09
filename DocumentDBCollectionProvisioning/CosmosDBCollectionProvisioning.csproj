@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{859C3D7E-6206-4A2D-BD36-1AC63FB4C83B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DocumentDBCollectionProvisioning</RootNamespace>
-    <AssemblyName>DocumentDBCollectionProvisioning</AssemblyName>
+    <RootNamespace>CosmosDBCollectionProvisioning</RootNamespace>
+    <AssemblyName>CosmosDBCollectionProvisioning</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -56,7 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Extensions\ExceptionExtensions.cs" />
-    <Compile Include="PrivisioningArgument.cs" />
+    <Compile Include="ProvisioningArgument.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Provisioning.cs" />
